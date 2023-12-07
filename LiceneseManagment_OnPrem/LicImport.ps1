@@ -1,0 +1,1 @@
+Import-NAVServerLicense 'MicrosoftDynamicsNavServer$MyInstance' -LicenseData ([Byte[]]$(Get-Content -Path "fin.bclicense" -Encoding Byte)) -Database Tenant -Tenant Tenant1
